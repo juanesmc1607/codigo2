@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>formulario</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+      <form action="/action_page.php">
+        <fieldset>
+          <legend>formulario:</legend>
+            <br>
+            <label for="nombre"></label>
+            <h1 style="border:2px solid Tomato">nombre</h1>
+            <span class="formato">nombre:</span>
+            <input type="text" id="nombre">
+         </label>
+          <label for="apellido">
+            <span id="formato2">apellido</span>
+            <input type="text" id="apellido">
+          </label>
+          <label for="fecha">
+            <span>fecha:</span>
+            <input type="date" name="birthday">
+          </label>
+          <br>
+          <label for="sexo">
+            <span>sexo:</span>
+            <br>
+            
+            <input type="radio" name="gender" value="female" checked> mujer<br>
+            <input type="radio" name="gender" value="male">hombre <br>
+            <input type="radio" name="gender" value="other"> otro<br>  
+          </label>
+          <br>
+          <label for="correo electronico"></label>
+          <span>correo electronico:</span>
+          <input type="email" name="email">
+          <br>
+          <label for="Tipo de documento">
+            <span>Tipo de documento:</span>
+            <br>
+            <input type="radio" name="documento" value="Tarjeta de identidad" checked> Tarjeta de identidad <br>
+            <input type="radio" name="documento" value="cedula de cuidadania"> cedula de cuidadania
+          </label>
+          <br>
+          <label for="numero de documento"></label>
+           <span>numero de documento</span>
+           <br>
+           <input type="radio" name="numero" value="numero" checked>nuemro de la tarjeta: <br>
+           <br>
+           <form>
+           <input type="number" name="tarjeta" pattern="[0-9]{3}[0-9]{2}[0-9{3}]">
+            </form>
+            <br>
+            <form>
+              <br>
+              <label for="en que podemos ayudarte?"></label>
+              <span>en que podemos ayudarte?</span>
+              <br>
+                   <textarea name="message" rows="10" cols="30">
+                                  Escribe aqui:
+                  </textarea>
+            <br>
+          <input type="submit" value="enviar">
+            </form>
+          <br>
+          <br>
+                                                                                                                                         
+        </form>
+    </body>
+    <!DOCTYPE html>
+
+<body>
+</html>
+
